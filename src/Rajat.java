@@ -9,7 +9,7 @@ public class Rajat {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-	File siddharth=new File("h:/dataFile.txt");
+	File siddharth=new File("Rajat.txt");
 	PrintWriter output=new PrintWriter(siddharth);
 	output.println();
 	output.println(43);
