@@ -25,7 +25,7 @@ File doc = new File(x);
 	        }
 	        while(input4.hasNext()) 
 	        	if(input4.nextInt()%2==0) {
-	        		System.out.println(input4.nextLine());
+	        		System.out.println(input4.nextInt());
 	        	}
 	        
 	        output.close();
