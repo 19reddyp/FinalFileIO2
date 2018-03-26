@@ -21,11 +21,12 @@ public class Test {
 		int count = 0;
 		int evenCount = 0;
 		while (input.hasNext()) {
-			if (input.nextInt() % 2 == 0) {
-				evenCount++;
+			int num = input.nextInt();
+			if(num%3==0) {
+				System.out.println("Divisible by Three: " + num);
 			}
 		}
-		System.out.println(evenCount);
+		
 		/*
 		 * while (input.hasNext()) { count+=input.nextInt(); } output.close();
 		 * System.out.println("Sum: " + count); while(input.hasNext()) {
