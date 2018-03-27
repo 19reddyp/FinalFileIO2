@@ -13,8 +13,18 @@ public class BrettData {
 		File brett = new File("brettdata.txt");
 		PrintWriter output = new PrintWriter(brett);
 		output.println();
-		output.println("69");
-		output.println("54");
+		output.println(69);
+		output.println(54);
+		output.println(69);
+		output.println(54);
+		output.println(69);
+		output.println(54);
+		output.println(69);
+		output.println(54);
+		output.println(5432);
+		output.println(3);
+		output.println(1);
+		output.println(34);
 		output.close();
 		}catch(IOException ex) {
 			System.out.println("File Not Found");

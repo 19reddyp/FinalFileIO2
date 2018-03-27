@@ -18,15 +18,25 @@ public class Test {
 		FileOutputStream outputStream = new FileOutputStream(y);
 		PrintWriter output = new PrintWriter(outputStream);
 
-		int count = 0;
-		int evenCount = 0;
-		while (input.hasNext()) {
-			if (input.nextInt() % 2 == 0) {
-				evenCount++;
+		int count = 1;
+		while(input.hasNext()) {
+			int num = input.nextInt();
+			if(count%5==0) {
+			System.out.println(num);
+			}
+			count++;
+		}
+		
+		
+		/*
+		 * while (input4.hasNext()) {
+			int num = input4.nextInt();
+			count += num;
+			if (num % 2 == 0) {
+				System.out.println(num);
+
 			}
 		}
-		System.out.println(evenCount);
-		/*
 		 * while (input.hasNext()) { count+=input.nextInt(); } output.close();
 		 * System.out.println("Sum: " + count); while(input.hasNext()) {
 		 * 
